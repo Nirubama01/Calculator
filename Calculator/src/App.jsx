@@ -61,7 +61,7 @@ function App() {
     <div className="col-3"><input type="button" onClick={ handleClick} value="00" className="btn btn-light w-100 py-2" /></div>
     <div className="col-3"><input type="button" onClick={ handleClick} value="0" className="btn btn-light w-100 py-2" /></div>
     <div className="col-6">
-      <input className="btn btn-light h-75 w-100 text-center" type="button" onClick={ handleClick} value="=" className="btn btn-light w-100 py-2" />
+      <input className="btn btn-light w-100 py-2" type="button" onClick={ handleClick} value="="  />
     </div>
 
   </div>
